@@ -1,2 +1,2 @@
-# pydata_global_2024_GPs
+# Making Gaussian Processes Useful
 Code and slides for Pydata 2024 GP tutorial
