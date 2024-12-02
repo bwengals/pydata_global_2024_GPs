@@ -1,0 +1,36 @@
+name: pydataglobal2024
+channels:
+    - conda-forge
+dependencies:
+    - python=3.11
+    - numba
+    - pandas
+    - scipy
+    - scikit-learn
+
+    # Dependencies for PyMC modeling
+    - arviz
+    - pip
+    - pymc==5.18.2
+    - libblas=*=*mkl
+    - mkl-service
+    - seaborn
+    - nutpie
+    - pip:
+        - pybaseball
+        - pymc-experimental>=0.0.17
+        - ipympl
+        - preliz
+        - networkx
+        - pydot
+        - cmocean
+
+    # JAX sampling
+    - jax
+    - numpyro
+    - blackjax
+
+    # Misc
+    - ipykernel
+    - ipywidgets
+
